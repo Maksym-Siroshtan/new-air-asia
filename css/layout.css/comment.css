@@ -1,0 +1,265 @@
+/*вторая страница*/
+
+.wrapper__content {
+    background: #F2F2F2;
+}
+
+.header__container-commemt {
+    margin-bottom: 86px;
+}
+
+.header__comment {
+    min-height: 412px;
+    margin-bottom: 98px;
+    background: url(../../new-air-asia/img/comment__img/headline.png) no-repeat;
+}
+
+.review {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.review__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 114px;
+}
+
+/*breadcrumbs*/
+
+.breadcrumbs-comment {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link-comment {
+    color: inherit;
+    text-decoration-line: underline;
+}
+
+.breadcrumbs__item-comment,
+.breadcrumbs__link-comment {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li+li .breadcrumbs__link-comment::before {
+    content: "/";
+}
+
+/*feedback*/
+
+.feedback {
+    color: white;
+}
+
+.feedback__profile {
+    overflow: hidden;
+}
+
+.feedback__profile-pic {
+    padding: 50px 22px 0 28px;
+}
+
+.feedback__profile-pic,
+.feedback__profile-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feedback__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.feedback__item {
+    max-width: 557px;
+    /*width: calc(100% / 2);
+    margin-left: -27px;*/
+    background: #F4F5F5;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.feedback__icon, .feedback__name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feedback__name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1A1B1E;
+}
+
+.feedback__name-blue {
+    text-decoration-line: underline;
+    color: #2E77A4;
+}
+
+.feedback__rectangle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #303030;
+    background: #B9EAE4;
+    border-radius: 35px;
+    padding: 10px 18px;
+    display: table;
+}
+
+.rectangle-form {
+background: #E7E7E7;
+}
+
+.feedback__desc {
+    padding: 27px 31px 32px;
+}
+
+.feedback__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+
+.feedback__text {
+    color: #818181;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+.feedback__date {
+    color: #1A1B1E;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+/*pagination*/
+.pagination-comment {
+    color: black;
+}
+
+.pagination__pages-item-comment:hover {
+    background: url(/img/comment__img/icon/ellipse-red.png) center center no-repeat;
+    color: white;
+}
+
+/*will-select*/
+
+.will-select {
+    position: relative;
+}
+
+.will-select__background-pic, .will-select__image-pic {
+    display: block;
+}
+
+.will-select__text {
+    position: absolute;
+    width: 594px;
+    height: 130px;
+    top: 117px;
+    left: 389px;
+    right: 937px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.will-select__image {
+    position: absolute;
+    top: 21px;
+    left: 1009px;
+}
+
+/*form*/
+
+.form__section {
+background: #F4F5F5;
+margin-bottom: 96px;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+    padding-top: 62px;
+    padding-bottom: 57px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form__block {
+    margin-right: 28px;
+    flex: 1;
+}
+
+.form__block:last-child {
+    margin-right: 0;
+}
+
+.form__input {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.form__input:focus {
+    border-color: #F5170E;
+}
+
+.form__input--textarea {
+    resize: vertical;
+    height: 235px;
+}
+
+.form__questions {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+}
+
+.form__rectangle-list {
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__block--list {
+    margin-right: 74px;
+}
+
+.form__rectangle-list li {
+    margin-right: 5px;
+}
+
+

@@ -1,0 +1,32 @@
+.contacts__phone {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 30px;
+    font-style: normal;
+
+}
+
+.contacts__keeptouch {
+    text-decoration-line: underline;
+    font-size: 13px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+footer .contacts__keeptouch {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 20px;
+    font-style: normal;
+    padding-bottom: 5px;
+    color: #9A9A9A;
+}
+
+footer .contacts__phone {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 20px;
+    font-style: normal;
+}

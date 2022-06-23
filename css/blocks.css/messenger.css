@@ -1,0 +1,14 @@
+/*messenger*/
+
+.messenger__icon {
+    width: 36px;
+    height: 36px;
+    padding-right: 5px;
+}
+
+.messenger__item,
+.messenger__icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+

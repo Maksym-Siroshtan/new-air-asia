@@ -1,0 +1,27 @@
+/*Блок рыбатекст*/
+
+.fish {
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.fish__title {
+    position: absolute;
+    width: 785px;
+    height: 455px;
+    border-radius: 5px;
+    margin-left: 354px;
+    margin-top: -400px;
+}
+
+div .fish__text p {
+    position: absolute;
+    top: 156px;
+    left: 81px;
+    right: 202px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+    color: #060606;
+}

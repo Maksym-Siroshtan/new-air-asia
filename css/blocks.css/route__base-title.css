@@ -1,0 +1,21 @@
+/*Первый блок*/
+
+.about-tours {
+    color: #FFFFFF;
+    width: 511px;
+    height: 197px;
+    margin-bottom: 382px;
+}
+
+.about-tours__name {
+    font-size: 72px;
+    line-height: 84px;
+    padding-bottom: 27.5px;
+}
+
+.about-tours__text {
+    padding-bottom: 33.5px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 20px;
+}

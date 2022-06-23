@@ -1,0 +1,40 @@
+/*Кнопки*/
+
+.button {
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background: none;
+}
+
+.button_red {
+    background: #F5170E;
+    padding: 18px 40px;
+    border: 1px solid transparent;
+}
+
+.button_red--fish {
+    position: absolute;
+    top: 334px;
+    left: 81px;
+}
+
+.button_white {
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    padding: 18px 30px;
+}
+
+.button_white:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+/*page comment*/
+.button_black {
+    background: #2B2B2B;
+    margin-right: 17px;
+}

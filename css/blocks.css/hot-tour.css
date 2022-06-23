@@ -1,0 +1,53 @@
+/*Section hot-tour*/
+
+.hot-tour {
+    margin-bottom: 127px;
+}
+
+.hot-tour__country {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__country {
+    background: #fff;
+    border-radius: 5px;
+    flex: 0;
+}
+
+.item__image {
+    display: block;
+}
+
+.item__desc {
+    padding: 33px 16px 26px 22px;
+}
+
+.desc__country {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 20px;
+}
+
+.desc__title {
+    padding-left: 40px;
+    padding-right: 28px;
+    background: url(/icon/calendar.png) left center no-repeat;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    min-height: 26px;
+}
+
+.desc__title-meal {
+    background: url(/icon/meal.png) left center no-repeat;
+    padding-right: 0;
+}
+
+.desc__paragraph {
+    margin-bottom: 25px;
+}

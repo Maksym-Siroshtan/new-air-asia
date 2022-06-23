@@ -154,7 +154,7 @@ background: #E7E7E7;
 }
 
 .pagination__pages-item-comment:hover {
-    background: url(/img/comment__img/icon/ellipse-red.png) center center no-repeat;
+    background: url(../../../new-air-asia/img/comment__img/icon/ellipse-red.png) center center no-repeat;
     color: white;
 }
 

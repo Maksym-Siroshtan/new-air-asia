@@ -33,7 +33,7 @@
 .desc__title {
     padding-left: 40px;
     padding-right: 28px;
-    background: url(./new-air-asia/icon/calendar.png) left center no-repeat;
+    background: url(../../../new-air-asia/icon/calendar.png) left center no-repeat;
     display: inline-block;
     margin-bottom: 25px;
     font-weight: 400;
@@ -44,7 +44,7 @@
 }
 
 .desc__title-meal {
-    background: url(./new-air-asia/icon/meal.png) left center no-repeat;
+    background: url(../../../new-air-asia/icon/meal.png) left center no-repeat;
     padding-right: 0;
 }
 

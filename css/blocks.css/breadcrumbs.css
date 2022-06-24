@@ -32,4 +32,5 @@ ul .breadcrumbs__item:last-child {
 
 .breadcrumbs_foot {
     flex: 1;
+    margin: auto;
 }

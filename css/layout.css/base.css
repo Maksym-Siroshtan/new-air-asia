@@ -52,6 +52,7 @@ table {
     display: flex;
     flex-direction: column;
     background: url(../../../new-air-asia/img/fon.png) no-repeat center center;
+    /*../../../new-air-asia*/
 }
 
 .wrapper__content {
@@ -64,27 +65,27 @@ table {
 }
 
 .header {
-    min-height: 123px;
     color: #fff;
     margin: 0 0 46px;
-    padding: 27px 0 0;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
+    padding: 36px 0;
 }
 
 .footer__container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding: 44px 0 0;
 }
 
 .footer {
-    min-height: 92px;
     color: #fff;
     background: #001821;
+    padding-bottom: 30px;
 }
 
 /*Line*/

@@ -1,5 +1,9 @@
 /*messenger*/
 
+.messenger {
+    margin-right: 70px;
+}
+
 .messenger__icon {
     width: 36px;
     height: 36px;

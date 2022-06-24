@@ -2,7 +2,7 @@
     font-size: 14px;
     line-height: 16px;
     margin: auto;
-    width: 65%;
+    flex: 1;
 }
 
 .breadcrumbs__item,
@@ -31,5 +31,5 @@ ul .breadcrumbs__item:last-child {
 /*footer*/
 
 .breadcrumbs_foot {
-    width: 35%;
+    flex: 1;
 }

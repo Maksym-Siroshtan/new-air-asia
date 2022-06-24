@@ -4,19 +4,19 @@
     background: #F2F2F2;
 }
 
-.header__container-commemt {
-    margin-bottom: 86px;
-}
-
 .header__comment {
-    min-height: 412px;
+    overflow: hidden;
+    min-width: 1140px;
+    padding-bottom: 20px;
     margin-bottom: 98px;
-    background: url(../../../new-air-asia/img/comment__img/headline.png) no-repeat;
+    background: url(../../../new-air-asia/img/comment__img/headline.png) center center no-repeat;
 }
 
 .review {
     width: 1140px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .review__title {
@@ -164,8 +164,15 @@ background: #E7E7E7;
     position: relative;
 }
 
-.will-select__background-pic, .will-select__image-pic {
+.will-select__background {
+    min-height: 363px;
+    background:url(../../../new-air-asia/img/comment__img/rectangle.png) center center no-repeat ;
+}
+
+
+.will-select__background-pic {
     display: block;
+    width: 100%;
 }
 
 .will-select__text {

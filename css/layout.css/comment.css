@@ -5,9 +5,7 @@
 }
 
 .header__comment {
-    overflow: hidden;
-    min-width: 1140px;
-    padding-bottom: 20px;
+    padding-top: 26px;
     margin-bottom: 98px;
     background: url(../../../new-air-asia/img/comment__img/headline.png) center center no-repeat;
 }

@@ -1,4 +1,7 @@
 .partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 537px;
     background: #F4F5F5;
 }

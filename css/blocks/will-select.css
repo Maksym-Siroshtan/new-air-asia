@@ -6,8 +6,8 @@
 
 .will-select__background {
     min-height: 363px;
-    background: url(/img/comment__img/couple.png) bottom right/500px no-repeat,
-    url(/img/comment__img/rectangle.png) center/cover no-repeat;
+    background: url(../../../new-air-asia/img/comment__img/couple.png) bottom right/500px no-repeat,
+    url(../../../new-air-asia/img/comment__img/rectangle.png) center/cover no-repeat;
 }
 
 .will-select__background-pic {

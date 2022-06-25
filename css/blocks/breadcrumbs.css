@@ -28,9 +28,26 @@ ul .breadcrumbs__item:last-child {
     color: #F5170E;
 }
 
-/*footer*/
+/*breadcrumbs__comment*/
 
-.breadcrumbs_foot {
-    flex: 1;
-    margin: auto;
+.breadcrumbs__comment {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__comment-link {
+    color: inherit;
+    text-decoration-line: underline;
+}
+
+.breadcrumbs__comment-item,
+.breadcrumbs__comment-link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li+li .breadcrumbs__comment-link::before {
+    content: "/";
 }

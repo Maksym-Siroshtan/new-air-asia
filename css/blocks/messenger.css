@@ -1,0 +1,32 @@
+/*messenger*/
+
+.messenger {
+    margin-right: 70px;
+}
+
+.messenger__icon {
+    width: 36px;
+    height: 36px;
+}
+
+.messenger__item,
+.messenger__icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.telegram {
+    background: url(/icon/telegram.png) center no-repeat;
+}
+
+.vk {
+    background: url(/icon/vk.png) center no-repeat;
+}
+
+.facebook {
+    background: url(/icon/facebook.png) center no-repeat;
+}
+
+.instagram {
+    background: url(/icon/instagram.png) center no-repeat;
+}

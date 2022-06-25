@@ -9,7 +9,6 @@
     color: #fff;
 }
 
-
 .title-black {
     color: #000000;
     position: absolute;
@@ -22,4 +21,12 @@
 
 .title-not-flame {
     background: none;
+}
+
+/*Заголовок: ОТЗЫВЫ, УСЛУГИ*/
+.review__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
 }

@@ -8,18 +8,18 @@
     <title>Comment</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/new-air-asia/normalize.css">
-    <link rel="stylesheet" href="/new-air-asia/css/layout.css/main.css">
-    <link rel="stylesheet" href="/new-air-asia/css/layout.css/comment.css">
+    <link rel="stylesheet" href="/new-air-asia/css/layout/normalize.css">
+    <link rel="stylesheet" href="/new-air-asia/css/layout/main.css">
+    <!--<link rel="stylesheet" href="/css/layout/comment.css">-->
 
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="wrapper__content">
+        <div class="wrapper__content content-coment">
             <!--Header-->
             <header class="header header__comment">
-                <div class="container header__container header__container-commemt">
+                <div class="container header__container">
                     <a href="#" class="logo">
                         <img src="./icon/logo.png" class="logo__img" alt="campy. Туристический клуб.">
                     </a>
@@ -42,15 +42,19 @@
                     </address>
                 </div>
                 <!--Блок ОТЗЫВЫ-->
-                <div class="review">
-                    <h1 class="review__title">Отзывы</h1>
-                    <nav class="breadcrumbs-comment">
-                        <ul class="breadcrumbs__list-comment">
-                            <li class="breadcrumbs__item-comment">
-                                <a href="./index.html" class="breadcrumbs__link-comment">Главная</a>
+                <div class="container">
+                    <div class="review">
+                        <h1 class="review__title">Отзывы</h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <nav class="breadcrumbs__comment">
+                        <ul class="breadcrumbs__comment-list">
+                            <li class="breadcrumbs__comment-item">
+                                <a href="./index.html" class="breadcrumbs__comment-link">Главная</a>
                             </li>
-                            <li class="breadcrumbs__item-comment">
-                                <a href="./comment.html" class="breadcrumbs__link-comment">Отзывы</a>
+                            <li class="breadcrumbs__comment-item">
+                                <a href="./comment.html" class="breadcrumbs__comment-link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
@@ -65,15 +69,16 @@
                             <ul class="feedback__list">
                                 <li class="feedback__item">
                                     <div class="feedback__profile">
-                                        <img class="feedback__profile-pic" src="./img/comment__img/icon/profile.png"
-                                            alt="Фото профиля">
+                                        <div class="feedback__profile-avatar">
+                                            <img class="feedback__profile-pic" src="./img/comment__img/icon/profile.png"
+                                                alt="Фото профиля">
+                                        </div>
                                         <div class="feedback__profile-title">
                                             <h2 class="feedback__name feedback__name-blue">Иван Петрович</h2>
                                             <img src="./img/comment__img/icon/vk-blue.png" alt="VK"
                                                 class="feedback__icon">
                                             <div class="feedback__rectangle">Водопад Янг-бей</div>
                                         </div>
-
                                     </div>
                                     <div class="feedback__desc">
                                         <h3 class="feedback__title">Крутой поход на водопады.</h3>
@@ -92,8 +97,10 @@
                                 </li>
                                 <li class="feedback__item">
                                     <div class="feedback__profile">
-                                        <img class="feedback__profile-pic" src="./img/comment__img/icon/ekaterina.png"
-                                            alt="Фото профиля">
+                                        <div class="feedback__profile-avatar">
+                                            <img class="feedback__profile-pic"
+                                                src="./img/comment__img/icon/ekaterina.png" alt="Фото профиля">
+                                        </div>
                                         <div class="feedback__profile-title">
                                             <h2 class="feedback__name">Екатерина Жмых</h2>
                                             <img src="./img/comment__img/icon/vk-blue.png" alt="VK"
@@ -117,8 +124,10 @@
                                 </li>
                                 <li class="feedback__item">
                                     <div class="feedback__profile">
-                                        <img class="feedback__profile-pic" src="./img/comment__img/icon/lisa.png"
-                                            alt="Фото профиля">
+                                        <div class="feedback__profile-avatar">
+                                            <img class="feedback__profile-pic" src="./img/comment__img/icon/lisa.png"
+                                                alt="Фото профиля">
+                                        </div>
                                         <div class="feedback__profile-title">
                                             <h2 class="feedback__name">Лиза Сидорова</h2>
                                             <img src="./img/comment__img/icon/vk-blue.png" alt="VK"
@@ -143,8 +152,10 @@
                                 </li>
                                 <li class="feedback__item">
                                     <div class="feedback__profile">
-                                        <img class="feedback__profile-pic" src="./img/comment__img/icon/anton.png"
-                                            alt="Фото профиля">
+                                        <div class="feedback__profile-avatar">
+                                            <img class="feedback__profile-pic" src="./img/comment__img/icon/anton.png"
+                                                alt="Фото профиля">
+                                        </div>
                                         <div class="feedback__profile-title">
                                             <h2 class="feedback__name">Антон Игоревич</h2>
                                             <img src="./img/comment__img/icon/vk-blue.png" alt="VK"
@@ -205,15 +216,17 @@
                 </div>
                 <!--Подберем тур-->
                 <div class="will-select">
+                    <div class="container">
                     <div class="will-select__background">
                         <img class="will-select__background-pic" src="" alt="">
                     </div>
-                    <div class="will-select__block">
-                        <h2 class="will-select__text">
-                            Подберем тур по вашим пожеланиям
-                        </h2>
-                        <div class="will-select__image">
-                            <img src="./img/comment__img/couple.png" alt="" class="will-select__image-pic">
+                        <div class="will-select__block">
+                            <h2 class="will-select__text">
+                                Подберем тур по вашим пожеланиям
+                            </h2>
+                            <!--<div class="will-select__image">
+                                <img src="" alt="" class="will-select__image-pic">
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -274,7 +287,7 @@
                 <a href="#" class="logo">
                     <img src="./icon/logo.png" class="logo__img" alt="campy. Туристический клуб.">
                 </a>
-                <nav class="breadcrumbs_foot">
+                <nav class="breadcrumbs">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">
                             <a href="./index.html" class="breadcrumbs__link">Главная</a>
@@ -288,17 +301,17 @@
                     </ul>
                 </nav>
                 <ul class="messenger">
-                    <li class="messenger__item">
-                        <a href="#"><img src="./icon/telegram.png" alt="Telegram" class="messenger__icon"></a>
+                    <li class="messenger__item telegram">
+                        <a href="#"><img class="messenger__icon"></a>
                     </li>
-                    <li class="messenger__item">
-                        <a href="#"><img src="./icon/vk.png" alt="VK" class="messenger__icon"></a>
+                    <li class="messenger__item vk">
+                        <a href="#"><img class="messenger__icon"></a>
                     </li>
-                    <li class="messenger__item">
-                        <a href="#"><img src="./icon/facebook.png" alt="Facebook" class="messenger__icon"></a>
+                    <li class="messenger__item facebook">
+                        <a href="#"><img class="messenger__icon"></a>
                     </li>
-                    <li class="messenger__item">
-                        <a href="#"><img src="./icon/instagram.png" alt="Instagram" class="messenger__icon"></a>
+                    <li class="messenger__item instagram">
+                        <a href="#"><img class="messenger__icon"></a>
                     </li>
                 </ul>
                 <address class="contacts">

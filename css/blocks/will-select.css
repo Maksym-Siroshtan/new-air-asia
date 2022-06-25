@@ -1,0 +1,35 @@
+/*will-select*/
+
+.will-select {
+    position: relative;
+}
+
+.will-select__background {
+    min-height: 363px;
+    background: url(/img/comment__img/couple.png) bottom right/500px no-repeat,
+    url(/img/comment__img/rectangle.png) center/cover no-repeat;
+}
+
+.will-select__background-pic {
+    display: block;
+    width: 100%;
+}
+
+.will-select__text {
+    position: absolute;
+    width: 594px;
+    height: 130px;
+    top: 117px;
+    left: auto;
+    right: auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+/*.will-select__image {
+    position: absolute;
+    top: 21px;
+    left: 1009px;
+}*/

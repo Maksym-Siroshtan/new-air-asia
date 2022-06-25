@@ -1,76 +1,12 @@
-/*вторая страница*/
+
 
 .wrapper__content {
     background: #F2F2F2;
 }
 
-.header__comment {
-    padding: 26px 0 23px;
-    margin-bottom: 98px;
-    background: url(../../../new-air-asia/img/comment__img/headline.png) center center no-repeat;
-}
-
-.header__container-commemt {
-    margin-bottom: 82px;
-}
-
-.review {
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.review__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98px;
-    margin-bottom: 114px;
-}
-
-/*breadcrumbs*/
-
-.breadcrumbs-comment {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #9A9A9A;
-}
-
-.breadcrumbs__link-comment {
-    color: inherit;
-    text-decoration-line: underline;
-}
-
-.breadcrumbs__item-comment,
-.breadcrumbs__link-comment {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-li+li .breadcrumbs__link-comment::before {
-    content: "/";
-}
-
 /*feedback*/
-
 .feedback {
     color: white;
-}
-
-.feedback__profile {
-    overflow: hidden;
-}
-
-.feedback__profile-pic {
-    padding: 50px 22px 0 28px;
-}
-
-.feedback__profile-pic,
-.feedback__profile-title {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .feedback__list {
@@ -82,12 +18,21 @@ li+li .breadcrumbs__link-comment::before {
 
 .feedback__item {
     max-width: 557px;
-    /*width: calc(100% / 2);
-    margin-left: -27px;*/
     background: #F4F5F5;
-    border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 17px;
+    padding: 50px 31px 32.5px 28px;
+}
+
+.feedback__profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.feedback__profile-avatar {
+margin-right: 22px;
 }
 
 .feedback__icon, .feedback__name {
@@ -119,14 +64,6 @@ li+li .breadcrumbs__link-comment::before {
     display: table;
 }
 
-.rectangle-form {
-background: #E7E7E7;
-}
-
-.feedback__desc {
-    padding: 27px 31px 32px;
-}
-
 .feedback__title {
     font-weight: 700;
     font-size: 30px;
@@ -150,27 +87,18 @@ background: #E7E7E7;
     line-height: 27px;
 }
 
-/*pagination*/
-.pagination-comment {
-    color: black;
-}
-
-.pagination__pages-item-comment:hover {
-    background: url(../../../new-air-asia/img/comment__img/icon/ellipse-red.png) center center no-repeat;
-    color: white;
-}
-
 /*will-select*/
 
 .will-select {
     position: relative;
+    
 }
 
 .will-select__background {
     min-height: 363px;
-    background:url(../../../new-air-asia/img/comment__img/rectangle.png) center center no-repeat ;
+    background: url(/img/comment__img/couple.png) bottom right/500px no-repeat,
+    url(/img/comment__img/rectangle.png) center/cover no-repeat;
 }
-
 
 .will-select__background-pic {
     display: block;
@@ -182,19 +110,19 @@ background: #E7E7E7;
     width: 594px;
     height: 130px;
     top: 117px;
-    left: 389px;
-    right: 937px;
+    left: auto;
+    right: auto;
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
     color: #FFFFFF;
 }
 
-.will-select__image {
+/*.will-select__image {
     position: absolute;
     top: 21px;
     left: 1009px;
-}
+}*/
 
 /*form*/
 
@@ -271,4 +199,7 @@ margin-bottom: 96px;
     margin-right: 5px;
 }
 
+.rectangle-form {
+    background: #E7E7E7;
+    }
 

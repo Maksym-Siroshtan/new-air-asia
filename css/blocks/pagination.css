@@ -35,3 +35,13 @@
     color: #F5170E;
     background: url(../../../new-air-asia/icon/ellipse.png) center center no-repeat;
 }
+
+/*pagination-comment*/
+.pagination-comment {
+    color: black;
+}
+
+.pagination__pages-item-comment:hover {
+    background: url(../../../new-air-asia/img/comment__img/icon/ellipse-red.png) center center no-repeat;
+    color: white;
+}

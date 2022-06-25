@@ -4,22 +4,26 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
-    background: url(../../../new-air-asia/icon/index/flame.png) left 288px center no-repeat;
     margin-bottom: 51px;
     color: #fff;
 }
 
 .title-black {
     color: #000000;
+    margin-bottom: 28px;
+}
+
+.title-flame {
+    background: url(../../../new-air-asia/icon/index/flame.png) left 288px center no-repeat;
+}
+
+.title-position {
+    color: #000000;
     position: absolute;
     top: 70px;
     left: 81px;
     margin: 0;
     padding-right: 0;
-    background: none;
-}
-
-.title-not-flame {
     background: none;
 }
 

@@ -1,0 +1,10 @@
+.partners {
+    min-height: 537px;
+    background: #F4F5F5;
+}
+
+.partners__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}

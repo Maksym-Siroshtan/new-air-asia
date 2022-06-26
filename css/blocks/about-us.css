@@ -1,12 +1,12 @@
 /*Блок рыбатекст*/
 
-.fish {
+.about-us {
     border-radius: 5px;
     position: relative;
     margin-bottom: 100px;
 }
 
-.fish__title {
+.about-us__title {
     position: absolute;
     width: 785px;
     height: 455px;
@@ -15,7 +15,7 @@
     margin-top: -400px;
 }
 
-div .fish__text p {
+div .about-us__text p {
     position: absolute;
     top: 156px;
     left: 81px;

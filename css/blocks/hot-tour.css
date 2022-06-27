@@ -15,9 +15,9 @@
     flex: 0;
 }
 
-.item__image {
+/*.item__image {
     display: block;
-}
+}*/
 
 .item__desc {
     padding: 33px 16px 26px 22px;
@@ -45,7 +45,6 @@
 
 .desc__title-meal {
     background: url(../../../new-air-asia/icon/index/meal.png) left center no-repeat;
-    padding-right: 0;
 }
 
 .desc__paragraph {

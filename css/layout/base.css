@@ -2,15 +2,16 @@
     box-sizing: border-box;
 }
 
-ul,
-p,
-h2 {
+p {
     margin: 0;
     padding: 0;
 }
 
-ul>li {
+ul,
+li {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -44,6 +45,17 @@ table {
     border-spacing: 0;
 }
 
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
 
 .wrapper {
     overflow: hidden;
@@ -85,7 +97,7 @@ table {
 .footer {
     color: #fff;
     background: #001821;
-    padding: 22px 0 ;
+    padding: 22px 0;
 }
 
 /*Line*/

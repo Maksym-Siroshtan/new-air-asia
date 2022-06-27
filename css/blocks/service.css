@@ -1,5 +1,6 @@
 .service__item {
     display: flex;
+    align-items: center;
     margin-bottom: 49px;
 }
 
@@ -8,10 +9,13 @@
 }
 
 .service__image-pic {
-    width: 460px;
-    height: 333px;
+    max-width: 460px;
 }
 
 .service__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
     margin-bottom: 34.5px;
+    color: #303030;
 }

@@ -7,13 +7,13 @@
     margin-right: 56px;
 }
 
-/*.service__image-pic {
+.service__image-pic {
     min-width: 460px;
     min-height: 333px;
-    display: block;
+    /*display: block;
     width: 100%;
-    border-radius: 5px;
-}*/
+    border-radius: 5px;*/
+}
 
 .service__paragraph {
     margin-bottom: 34.5px;

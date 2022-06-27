@@ -1,14 +1,14 @@
 /*will-select*/
 
 .will-select {
-    background: url(/img/comment/rectangle.png) center/cover no-repeat;
+    background: url(../../../new-air-asia/img/comment/rectangle.png) center/cover no-repeat;
 }
 
 .will-select__container {
     display: flex;
     align-items: center;
     min-height: 363px;
-    background: url(/img/comment/couple.png) bottom right no-repeat;
+    background: url(../../../new-air-asia/img/comment/couple.png) bottom right no-repeat;
 }
 
 .will-select__background-pic {

@@ -1,13 +1,14 @@
 /*will-select*/
 
 .will-select {
-    position: relative;
+    background: url(/img/comment/rectangle.png) center/cover no-repeat;
 }
 
-.will-select__background {
+.will-select__container {
+    display: flex;
+    align-items: center;
     min-height: 363px;
-    background: url(../../../new-air-asia/img/comment/couple.png) bottom right/500px no-repeat,
-    url(../../../new-air-asia/img/comment/rectangle.png) center/cover no-repeat;
+    background: url(/img/comment/couple.png) bottom right no-repeat;
 }
 
 .will-select__background-pic {
@@ -16,20 +17,10 @@
 }
 
 .will-select__text {
-    position: absolute;
     width: 594px;
     height: 130px;
-    top: 117px;
-    left: auto;
-    right: auto;
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
     color: #FFFFFF;
 }
-
-/*.will-select__image {
-    position: absolute;
-    top: 21px;
-    left: 1009px;
-}*/

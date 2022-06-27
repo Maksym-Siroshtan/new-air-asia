@@ -9,6 +9,10 @@
 .breadcrumbs__link {
     display: inline-block;
     vertical-align: middle;
+   
+}
+
+.breadcrumbs__link {
     text-decoration: none;
     color: inherit;
     font-weight: 400;

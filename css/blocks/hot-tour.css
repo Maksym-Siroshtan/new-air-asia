@@ -12,7 +12,7 @@
 .item__country {
     background: #fff;
     border-radius: 5px;
-    flex: 0;
+    width: 31%;
 }
 
 .item__desc {
@@ -23,7 +23,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .desc__title {

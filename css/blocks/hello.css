@@ -1,6 +1,6 @@
 .hello-banner {
     min-height: 960px;
-    background: url(/img/hello/bg-hello.png) center center no-repeat;
+    background: url(../../../new-air-asia/img/hello/bg-hello.png) center center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;

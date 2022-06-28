@@ -18,6 +18,10 @@
     vertical-align: middle;
 }
 
+.messenger__item:hover {
+    filter: invert(75%);
+}
+
 .telegram {
     background: url(../../../new-air-asia/icon/index/telegram.png) center no-repeat;
 }

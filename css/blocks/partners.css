@@ -1,13 +1,12 @@
 .partners {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background: #F4F5F5;
 }
 
 .partners__row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 90px;
 }
 

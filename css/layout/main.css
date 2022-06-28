@@ -1,21 +1,22 @@
 /*layout*/
-@import url(/new-air-asia/css/layout/normalize.css);
-@import url(/new-air-asia/css/layout/base.css);
+@import url(/css/layout/normalize.css);
+@import url(/css/layout/base.css);
 /*blocks*/
-@import url(/new-air-asia/css/blocks/logo.css);
-@import url(/new-air-asia/css/blocks/breadcrumbs.css);
-@import url(/new-air-asia/css/blocks/contacts.css);
-@import url(/new-air-asia/css/blocks/button.css);
-@import url(/new-air-asia/css/blocks/about-tours.css);
-@import url(/new-air-asia/css/blocks/title.css);
-@import url(/new-air-asia/css/blocks/hot-tour.css);
-@import url(/new-air-asia/css/blocks/news.css);
-@import url(/new-air-asia/css/blocks/pagination.css);
-@import url(/new-air-asia/css/blocks/about-us.css);
-@import url(/new-air-asia/css/blocks/messenger.css);
-@import url(/new-air-asia/css/blocks/feedback.css);
-@import url(/new-air-asia/css/blocks/will-select.css);
-@import url(/new-air-asia/css/blocks/form.css);
-@import url(/new-air-asia/css/blocks/service.css);
-@import url(/new-air-asia/css/blocks/partners.css);
+@import url(/css/blocks/logo.css);
+@import url(/css/blocks/breadcrumbs.css);
+@import url(/css/blocks/contacts.css);
+@import url(/css/blocks/button.css);
+@import url(/css/blocks/about-tours.css);
+@import url(/css/blocks/title.css);
+@import url(/css/blocks/hot-tour.css);
+@import url(/css/blocks/news.css);
+@import url(/css/blocks/pagination.css);
+@import url(/css/blocks/about-us.css);
+@import url(/css/blocks/messenger.css);
+@import url(/css/blocks/feedback.css);
+@import url(/css/blocks/rectangle.css);
+@import url(/css/blocks/will-select.css);
+@import url(/css/blocks/form.css);
+@import url(/css/blocks/service.css);
+@import url(/css/blocks/partners.css);
 /*/new-air-asia*/

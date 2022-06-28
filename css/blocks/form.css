@@ -59,6 +59,15 @@
         flex-wrap: wrap;
         align-content: space-between;
     }
+
+    .form__rectangle {
+        margin-right: 5px;
+        background: #E7E7E7;
+    }
+
+    .form__rectangle-link {
+        color: #1A1B1E;
+    }
     
     .form__button {
         display: flex;
@@ -68,11 +77,3 @@
     .form__block--list {
         margin-right: 74px;
     }
-    
-    .form__rectangle-list li {
-        margin-right: 5px;
-    }
-    
-    .rectangle-form {
-        background: #E7E7E7;
-        }    

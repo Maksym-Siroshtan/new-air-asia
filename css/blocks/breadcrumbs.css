@@ -20,6 +20,10 @@
     line-height: 19px;
 }
 
+.active-link {
+    color: #F5170E;
+}
+
 .breadcrumbs__item {
     margin-right: 54px;
 }

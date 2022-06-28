@@ -2,6 +2,7 @@
 @import url(/new-air-asia/css/layout/normalize.css);
 @import url(/new-air-asia/css/layout/base.css);
 /*blocks*/
+@import url(/new-air-asia/css/blocks/hello.css);
 @import url(/new-air-asia/css/blocks/logo.css);
 @import url(/new-air-asia/css/blocks/breadcrumbs.css);
 @import url(/new-air-asia/css/blocks/contacts.css);

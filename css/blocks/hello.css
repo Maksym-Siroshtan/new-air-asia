@@ -1,0 +1,33 @@
+.hello-banner {
+    min-height: 960px;
+    background: url(/img/hello/bg-hello.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.hello__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hello__text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 52.5px;
+}
+
+.hello-block { 
+    position: relative;
+    animation: bounceIn 0.8s linear 1s 3 both; 
+}
+
+@keyframes bounceIn{
+    0%  { opacity: 0;}
+    50% { opacity: 0;}
+    100%{ opacity: 1;}
+  }

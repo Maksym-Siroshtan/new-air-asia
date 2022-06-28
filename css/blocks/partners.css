@@ -10,3 +10,11 @@
     justify-content: space-between;
     margin-bottom: 90px;
 }
+
+.partners__link {
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: none;
+}

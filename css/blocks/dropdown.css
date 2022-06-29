@@ -1,0 +1,46 @@
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown__link {
+    color: #98A4A8;
+    text-decoration-line: underline;
+    font-size: 13px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.dropdown__link:hover {
+    transition: .3s;
+    color: #fff;
+}
+
+.dropdown__menu {
+    position: absolute;
+    min-width: 160px;
+    background: #CDD1D2;
+    mix-blend-mode: normal;
+    padding: 15px 19px;
+    border-radius: 5px;
+    opacity: 0.8;
+    top: 100%;
+    right: -9999px;
+    transition: opacity .4s;
+}
+
+.dropdown:hover .dropdown__menu {
+    right: 0;
+    opacity: 1;
+}
+
+.dropdown__item {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+}
+
+.dropdown__item:last-child {
+    font-weight: 600;
+}

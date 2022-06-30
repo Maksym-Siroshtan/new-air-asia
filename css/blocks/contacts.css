@@ -14,13 +14,6 @@
 }
 
 .contacts__keeptouch {
-    text-decoration-line: underline;
-    font-size: 13px;
-    line-height: 20px;
-    font-style: normal;
-}
-
-footer .contacts__keeptouch {
     text-decoration: none;
     font-size: 11px;
     line-height: 20px;

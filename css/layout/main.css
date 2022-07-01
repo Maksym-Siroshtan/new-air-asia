@@ -1,6 +1,7 @@
 /*layout*/
 @import url(/new-air-asia/css/layout/normalize.css);
 @import url(/new-air-asia/css/layout/base.css);
+@import url(/new-air-asia/css/layout/sprite.css);
 /*blocks*/
 @import url(/new-air-asia/css/blocks/auth.css);
 @import url(/new-air-asia/css/blocks/logo.css);
@@ -14,7 +15,6 @@
 @import url(/new-air-asia/css/blocks/news.css);
 @import url(/new-air-asia/css/blocks/pagination.css);
 @import url(/new-air-asia/css/blocks/about-us.css);
-@import url(/new-air-asia/css/blocks/sprite.css);
 @import url(/new-air-asia/css/blocks/messenger.css);
 @import url(/new-air-asia/css/blocks/feedback.css);
 @import url(/new-air-asia/css/blocks/rectangle.css);

@@ -1,0 +1,45 @@
+.auth__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: bounce 1s cubic-bezier(.5,.03,.37,.98);
+    transition: .3s;
+}
+
+.auth__text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 52.5px;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+    }
+    
+    20% {
+        opacity: 0;
+        transform: scale(.2);
+    }
+
+    40% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.2);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -19,27 +19,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 .icon-facebook {
     background-image: url(../../../new-air-asia/icon/about/sprite.png);
     background-position: 0px 0px;
-    width: 36px;
-    height: 36px;
 }
 
 .icon-instagram {
     background-image: url(../../../new-air-asia/icon/about/sprite.png);
     background-position: -36px 0px;
-    width: 36px;
-    height: 36px;
 }
 
 .icon-telegram {
     background-image: url(../../../new-air-asia/icon/about/sprite.png);
     background-position: 0px -36px;
-    width: 36px;
-    height: 36px;
 }
 
 .icon-vk {
     background-image: url(../../../new-air-asia/icon/about/sprite.png);
     background-position: -36px -36px;
-    width: 36px;
-    height: 36px;
 }

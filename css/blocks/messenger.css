@@ -20,6 +20,7 @@
 
 .messenger__item:hover {
     filter: invert(75%);
+    transition: .3s;
 }
 
 .telegram {

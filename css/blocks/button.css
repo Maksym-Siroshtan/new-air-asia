@@ -32,6 +32,7 @@
 .button_white:hover {
     background: #F5170E;
     color: #fff;
+    transition: .3s;
 }
 
 /*page comment*/

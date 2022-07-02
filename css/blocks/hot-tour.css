@@ -9,29 +9,29 @@
     justify-content: space-between;
 }
 
-.item__country {
+.hot-tour__item {
     background: #fff;
     border-radius: 5px;
     width: 32%;
     font-size: 0;
 }
 
-.item__image {
+.hot-tour__image-pic {
     width: 100%;
 }
 
-.item__desc {
+.hot-tour__desc {
     padding: 33px 16px 25px 25px;
 }
 
-.desc__country {
+.hot-tour__country-name {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 22px;
 }
 
-.desc__title {
+.hot-tour__title {
     padding-left: 44px;
     padding-right: 28px;
     background: url(../../../new-air-asia/icon/about/calendar.png) left center no-repeat;
@@ -44,11 +44,11 @@
     min-height: 26px;
 }
 
-.desc__title-meal {
+.title-meal {
     background: url(../../../new-air-asia/icon/about/meal.png) left center no-repeat;
 }
 
-.desc__paragraph {
+.hot-tour__paragraph {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;

@@ -1,24 +1,22 @@
-/*Section news*/
-
 .news {
     margin-bottom: 53px;
 }
 
-.route__preview {
+.news__preview {
     display: flex;
     justify-content: space-between  ;
     color: #fff;
 }
 
-.route__item {
+.news__item {
     position: relative;
 }
 
-.route__preview-pic {
+.news__preview-image {
     border-radius: 5px;
 }
 
-.route__title {
+.news__title {
     position: absolute;
     top: 252px;
     left: 30px;
@@ -26,7 +24,7 @@
     line-height: 21px;
 }
 
-.route__voucher {
+.news__voucher {
     position: absolute;
     top: 286px;
     left: 31px;
@@ -35,7 +33,7 @@
     line-height: 36px;
 }
 
-.route__text {
+.news__text {
     position: absolute;
     top: 322px;
     left: 32px;
@@ -43,7 +41,7 @@
     line-height: 21px;
 }
 
-.route__text-surfer {
+.news__text-surfer {
     font-size: 16px;
     line-height: 24px;
 }

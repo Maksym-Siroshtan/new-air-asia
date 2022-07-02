@@ -16,6 +16,10 @@
     font-size: 0;
 }
 
+.item__image {
+    width: 100%;
+}
+
 .item__desc {
     padding: 33px 16px 25px 25px;
 }

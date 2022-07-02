@@ -31,6 +31,10 @@
     padding: 18px 30px;
 }
 
+.button_service {
+    width: 168px;
+}
+
 .button_white:hover {
     background: #F5170E;
     color: #fff;

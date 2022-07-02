@@ -12,6 +12,7 @@
 }
 
 .button_red {
+    width: 168px;
     background: #F5170E;
     padding: 18px 40px;
     border: 1px solid transparent;
@@ -24,6 +25,7 @@
 }
 
 .button_white {
+    width: 135px;
     color: #F5170E;
     border: 1px solid #F5170E;
     padding: 18px 30px;

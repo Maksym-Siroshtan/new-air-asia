@@ -1,7 +1,7 @@
 /*Section hot-tour*/
 
 .hot-tour {
-    margin-bottom: 127px;
+    margin-bottom: 128px;
 }
 
 .hot-tour__country {
@@ -12,26 +12,27 @@
 .item__country {
     background: #fff;
     border-radius: 5px;
-    width: 31%;
+    width: 32%;
+    font-size: 0;
 }
 
 .item__desc {
-    padding: 33px 16px 26px 22px;
+    padding: 33px 16px 25px 25px;
 }
 
 .desc__country {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .desc__title {
-    padding-left: 40px;
+    padding-left: 44px;
     padding-right: 28px;
     background: url(../../../new-air-asia/icon/about/calendar.png) left center no-repeat;
     display: inline-block;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -44,5 +45,8 @@
 }
 
 .desc__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
     margin-bottom: 25px;
 }

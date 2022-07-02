@@ -1,6 +1,6 @@
 /*Пагинация*/
 .pagination {
-    margin-bottom: 152px;
+    margin-bottom: 144px;
     color: #fff;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .pagination__pages-link {
-    padding: 6px 12px;
+    padding: 6px 14px;
     text-decoration: none;
     align-items: center;
     font-size: 16px;
@@ -20,7 +20,8 @@
 }
 
 .pagination__display {
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 .pagination__pages-item,

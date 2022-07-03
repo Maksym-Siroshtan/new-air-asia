@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/new-air-asia/css/layout/normalize.css">
     <link rel="stylesheet" href="/new-air-asia/css/layout/main.css">
-    <link rel="stylesheet" href="/new-air-asia/css/layout/sprite.css" />
+
     <!--/new-air-asia-->
     <title>Air-Asia</title>
 </head>
@@ -123,7 +123,8 @@
                             <ul class="news__preview">
                                 <li class="news__item">
                                     <div class="news__preview-image">
-                                        <img class="news__preview-image-pic" src="./img/about/plain.png" alt="Картинка с новостью">
+                                        <img class="news__preview-image-pic" src="./img/about/plain.png"
+                                            alt="Картинка с новостью">
                                     </div>
                                     <div class="news__desc">
                                         <p class="news__title">Декабрь 2019</p>
@@ -133,7 +134,8 @@
                                 </li>
                                 <li class="news__item">
                                     <div class="news__preview-image">
-                                        <img class="news__preview-image-pic" src="./img/about/surfer.png" alt="Картинка с новостью">
+                                        <img class="news__preview-image-pic" src="./img/about/surfer.png"
+                                            alt="Картинка с новостью">
                                     </div>
                                     <div class="news__desc">
                                         <p class="news__title">Декабрь 2019</p>
@@ -181,9 +183,13 @@
                     </main>
                     <!--Блок рыбатекст-->
                     <section class="about-us">
-                        <img src="./img/about/gates.png" alt="Мотоцикл">
+                        <div class="about-us__image-gates">
+                            <img class="about-us__image-gates-pic" src="./img/about/gates.png" alt="Мотоцикл">
+                        </div>
                         <div class="about-us__title">
-                            <img src="./img/about/mountains.png" alt="Горы">
+                            <div class="about-us__image-mountains">
+                                <img class="about-us__image-mountains-pic" src="./img/about/mountains.png" alt="Горы">
+                            </div>
                             <h2 class="title title-position">О нас</h2>
                             <div class="about-us__text">
                                 <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
@@ -221,17 +227,17 @@
                     </ul>
                 </nav>
                 <ul class="messenger">
-                    <li class="messenger__item icon-facebook">
-                        <a href="#"><img src="" class="messenger__icon"></a>
+                    <li class="messenger__item">
+                        <a class="messenger__link messenger__icon messenger__icon--telegram" href="#"></a>
                     </li>
-                    <li class="messenger__item icon-vk">
-                        <a href="#"><img src="" class="messenger__icon"></a>
+                    <li class="messenger__item">
+                        <a class="messenger__link messenger__icon messenger__icon--vk" href="#"></a>
                     </li>
-                    <li class="messenger__item icon-facebook">
-                        <a href="#"><img src="" class="messenger__icon"></a>
+                    <li class="messenger__item">
+                        <a class="messenger__link messenger__icon messenger__icon--facebook" href="#"></a>
                     </li>
-                    <li class="messenger__item icon-instagram">
-                        <a href="#"><img src="" class="messenger__icon"></a>
+                    <li class="messenger__item">
+                        <a class="messenger__link messenger__icon messenger__icon--instagram" href="#"></a>
                     </li>
                 </ul>
                 <address class="contacts">

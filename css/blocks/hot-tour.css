@@ -16,8 +16,15 @@
     font-size: 0;
 }
 
+.hot-tour__image {
+    width: 362px;
+    height: 144px;
+}
+
 .hot-tour__image-pic {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hot-tour__desc {

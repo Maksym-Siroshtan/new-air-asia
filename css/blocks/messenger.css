@@ -2,6 +2,7 @@
 
 .messenger {
     margin-right: 62px;
+    position: relative;
 }
 
 .messenger__item {
@@ -13,14 +14,71 @@
 }
 
 .messenger__item,
-.messenger__icon {
+.messenger__link {
     display: inline-block;
     vertical-align: middle;
 }
 
-.messenger__item:hover {
-    filter: invert(75%);
-    transition: .3s;
-}
+/*messenger sprite*/
 
-
+.messenger__icon {
+    position: absolute;
+  }
+  
+  .messenger__icon::before, .messenger__icon::after {
+    content: "";
+    position: absolute;
+    background: url(../../../new-air-asia/icon/about/sprite.png) no-repeat;
+    transition: opacity .3s;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .messenger__item .messenger__icon::after {
+    opacity: 0;
+  }
+  
+  .messenger__icon--telegram::before {
+    background-position: -72px -36px;
+  }
+  
+  .messenger__icon--vk::before {
+    background-position: -36px -72px;
+  }
+  
+  .messenger__icon--facebook::before {
+    background-position: -36px 0px;
+  }
+  
+  .messenger__icon--instagram::before {
+    background-position: -36px -36px;
+  }
+  
+  
+  .messenger__icon--telegram::after {
+    opacity: 0;
+    background-position: -72px 0px;
+  }
+  
+  .messenger__icon--vk::after {
+    opacity: 0;
+    background-position: 0px -72px;
+  }
+  
+  .messenger__icon--facebook::after {
+    opacity: 0;
+    background-position: 0px 0px;
+  }
+  
+  .messenger__icon--instagram::after {
+    opacity: 0;
+    background-position: 0px -36px;
+  }
+  
+  .messenger__item:hover .messenger__icon::after {
+    opacity: 1;
+  }
+  
+  .messenger__item:hover .messenger__icon::before {
+    opacity: 0;
+  }

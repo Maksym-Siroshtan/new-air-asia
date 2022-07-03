@@ -1,9 +1,23 @@
-/*О нас*/
-
 .about-us {
     border-radius: 5px;
     position: relative;
     margin-bottom: 104px;
+}
+
+.about-us__image-gates {
+    width: 490px;
+    height: 505px;
+}
+
+.about-us__image-mountains {
+    width: 785px;
+    height: 455px;
+}
+
+.about-us__image-gates-pic, .about-us__image-mountains-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about-us__title {

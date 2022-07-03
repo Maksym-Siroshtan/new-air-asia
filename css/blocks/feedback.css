@@ -26,12 +26,15 @@
 }
 
 .feedback__profile-avatar {
-margin-right: 22px;
+    width: 142px;
+    height: 142px;
+    margin-right: 22px;
 }
 
 .feedback__profile-pic {
-    width: 142px;
-    height: 142px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .feedback__icon, .feedback__name {

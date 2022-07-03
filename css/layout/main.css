@@ -1,7 +1,7 @@
 /*layout*/
 @import url(/new-air-asia/css/layout/normalize.css);
 @import url(/new-air-asia/css/layout/base.css);
-@import url(/new-air-asia/css/layout/sprite.css);
+
 /*blocks*/
 @import url(/new-air-asia/css/blocks/auth.css);
 @import url(/new-air-asia/css/blocks/logo.css);

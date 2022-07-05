@@ -78,7 +78,7 @@ img {
 
 .wrapper__content {
     flex: 1;
-    background: url(/img/about/fon.png) center top / cover no-repeat;
+    background: url(../../../new-air-asia/img/about/fon.png) center top / cover no-repeat;
     /*../../../new-air-asia*/
 }
 
@@ -135,6 +135,5 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(/img/comment/headline.png) center center no-repeat;
-    background-size: cover;
+    background: url(../../../new-air-asia/img/comment/headline.png) center center / cover no-repeat;
 }

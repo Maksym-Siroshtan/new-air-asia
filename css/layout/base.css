@@ -107,7 +107,11 @@ img {
 .footer {
     color: #fff;
     background: #001821;
-    padding: 29px 0 20px;
+    padding-bottom: 48px;
+}
+
+.footer__comment {
+    padding-top: 40px;
 }
 
 /*Line*/
@@ -116,7 +120,6 @@ hr {
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.1;
-    margin-bottom: 15px;
 }
 
 /*вторая страница-comment*/

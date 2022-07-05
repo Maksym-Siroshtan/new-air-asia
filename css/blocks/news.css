@@ -14,12 +14,8 @@
 
 .news__item {
     position: relative;
-}
-
-.news__preview-image {
     width: 557px;
     height: 394px;
-    border-radius: 5px;
 }
 
 .news__preview-image-pic {

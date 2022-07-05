@@ -1,27 +1,7 @@
-/*Пагинация*/
 .pagination {
     margin-bottom: 144px;
+    text-align: center;
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.pagination__pages-link {
-    padding: 6px 14px;
-    text-decoration: none;
-    align-items: center;
-    font-size: 16px;
-    line-height: 21px;
-    display: flex;
-    color: inherit;
-}
-
-.pagination__display {
-    padding-left: 30px;
-    padding-right: 40px;
 }
 
 .pagination__pages-item,
@@ -32,19 +12,48 @@
     vertical-align: middle;
 }
 
-.pagination__pages-item:hover {
+.pagination__pages-item.active .pagination__pages-link {
     color: #F5170E;
-    background: url(../../../new-air-asia/icon/about/ellipse.png) center center no-repeat;
+    background: #fff;
+}
+
+.pagination__display {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 9px;
+}
+
+.pagination__pages-link {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
     transition: .3s;
 }
 
-/*pagination-comment*/
-.pagination-comment {
+.pagination__pages-link:hover {
+    color: #F5170E;
+    background: #fff;
+}
+
+.pagination_comment {
     color: black;
 }
 
-.pagination__pages-item-comment:hover {
-    background: url(../../../new-air-asia/icon/comment/ellipse-red.png) center center no-repeat;
+.pagination__pages-link_red:hover {
     color: white;
+    background: #F5170E;
     transition: .3s;
+}
+
+.pagination__pages-item_red.active .pagination__pages-link {
+    color: #fff;
+    background: #F5170E;
 }

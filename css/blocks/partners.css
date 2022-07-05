@@ -1,6 +1,11 @@
 .partners {
     display: flex;
     background: #F4F5F5;
+    padding: 88px 0 117px;
+}
+
+.partners__title {
+    margin-bottom: 99px;
 }
 
 .partners__row {
@@ -8,6 +13,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
+}
+
+.partners__row:last-child {
+    margin-bottom: 0;
 }
 
 .partners__link {

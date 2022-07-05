@@ -1,7 +1,15 @@
+.service__list {
+    margin-bottom: 69px;
+}
+
 .service__item {
     display: flex;
     align-items: center;
     margin-bottom: 49px;
+}
+
+.service__item:last-child {
+    margin: 0;
 }
 
 .service__image {

@@ -1,70 +1,72 @@
-/*form*/
-
 .form__section {
     background: #F4F5F5;
-    padding-bottom: 96px;
-    }
-    
-    .form__row {
-        display: flex;
-        margin-bottom: 25px;
-    }
-    
-    .form__block {
-        margin-right: 28px;
-        flex: 1;
-    }
-    
-    .form__block:last-child {
-        margin-right: 0;
-    }
-    
-    .form__input {
-        background: #FFFFFF;
-        border-radius: 5px;
-        padding: 20px 30px;
-        width: 100%;
-        outline: none;
-        border: 1px solid transparent;
-    }
-    
-    .form__input:focus {
-        border-color: #F5170E;
-    }
-    
-    .form__input--textarea {
-        resize: vertical;
-        height: 235px;
-    }
-    
-    .form__questions {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        color: #1A1B1E;
-    }
-    
-    .form__rectangle-list {
-        height: 85px;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
+    padding: 62px 0 96px;
+}
 
-    .form__rectangle {
-        margin-right: 5px;
-        background: #E7E7E7;
-    }
+.form__title {
+    margin-bottom: 57px;
+}
 
-    .form__rectangle-link {
-        color: #1A1B1E;
-    }
-    
-    .form__button {
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .form__block--list {
-        margin-right: 74px;
-    }
+.form__row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form__block {
+    margin-right: 28px;
+    flex: 1;
+}
+
+.form__block:last-child {
+    margin-right: 0;
+}
+
+.form__input {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.form__input:focus {
+    border-color: #F5170E;
+}
+
+.form__input--textarea {
+    resize: vertical;
+    height: 235px;
+}
+
+.form__questions {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+}
+
+.form__rectangle-list {
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.form__rectangle {
+    margin-right: 5px;
+    background: #E7E7E7;
+}
+
+.form__rectangle-link {
+    color: #1A1B1E;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__block--list {
+    margin-right: 74px;
+}

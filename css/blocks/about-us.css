@@ -20,13 +20,19 @@
     object-fit: cover;
 }
 
-.about-us__title {
+.about-us__desc {
     position: absolute;
     width: 785px;
     height: 455px;
     border-radius: 5px;
     margin-left: 354px;
     margin-top: -406px;
+}
+
+.about-us__title {
+    position: absolute;
+    top: 70px;
+    left: 81px;
 }
 
 div .about-us__text p {

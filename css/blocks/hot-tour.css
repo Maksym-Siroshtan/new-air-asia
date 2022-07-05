@@ -4,6 +4,10 @@
     margin-bottom: 128px;
 }
 
+.hot-tour__title {
+    margin-bottom: 51px;
+}
+
 .hot-tour__country {
     display: flex;
     justify-content: space-between;
@@ -38,7 +42,7 @@
     margin-bottom: 22px;
 }
 
-.hot-tour__title {
+.hot-tour__text {
     padding-left: 44px;
     padding-right: 28px;
     background: url(../../../new-air-asia/icon/about/calendar.png) left center no-repeat;
@@ -51,7 +55,7 @@
     min-height: 26px;
 }
 
-.title-meal {
+.text_meal {
     background: url(../../../new-air-asia/icon/about/meal.png) left center no-repeat;
 }
 

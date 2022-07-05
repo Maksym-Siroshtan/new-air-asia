@@ -2,6 +2,10 @@
     margin-bottom: 53px;
 }
 
+.news__title {
+    margin-bottom: 51px;
+}
+
 .news__preview {
     display: flex;
     justify-content: space-between  ;
@@ -24,7 +28,7 @@
     object-fit: cover;
 }
 
-.news__title {
+.news__date {
     position: absolute;
     top: 252px;
     left: 30px;

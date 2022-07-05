@@ -1,36 +1,14 @@
-/*Заголовок*/
-
 .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
-    margin-bottom: 51px;
     color: #fff;
 }
 
-.title-black {
-    color: #000000;
-    margin-bottom: 28px;
-}
-
-.title-flame {
+.title_flame {
     background: url(../../../new-air-asia/icon/about/flame.png) left 288px center no-repeat;
 }
 
-.title-position {
+.title_black {
     color: #000000;
-    position: absolute;
-    top: 70px;
-    left: 81px;
-    margin: 0;
-    padding-right: 0;
-    background: none;
-}
-
-/*Заголовок: ОТЗЫВЫ, УСЛУГИ*/
-.review__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98px;
 }

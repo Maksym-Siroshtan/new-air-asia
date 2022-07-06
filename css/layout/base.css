@@ -71,14 +71,14 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(../../../new-air-asia/img/auth/background-auth.png) center center / cover no-repeat;
+    background: url(../../../new-air-asia/img/auth/background-auth.jpg) center center / cover no-repeat;
     justify-content: center;
     align-items: center;
 }
 
 .wrapper__content {
     flex: 1;
-    background: url(../../../new-air-asia/img/about/background.png) center top / cover no-repeat;
+    background: url(../../../new-air-asia/img/about/background.jpg) center top / cover no-repeat;
     /*../../../new-air-asia*/
 }
 

@@ -14,6 +14,10 @@
 
 .news__item {
     position: relative;
+    width: 49%;
+}
+
+.news__preview-image {
     width: 557px;
     height: 394px;
 }

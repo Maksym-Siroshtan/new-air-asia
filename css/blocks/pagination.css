@@ -45,6 +45,7 @@
 
 .pagination_comment {
     color: black;
+    margin: 0;
 }
 
 .pagination__pages-link_red:hover {

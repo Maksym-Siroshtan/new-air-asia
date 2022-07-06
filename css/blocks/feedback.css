@@ -1,6 +1,7 @@
 /*feedback*/
 .feedback {
     color: white;
+    margin-bottom: 65px;
 }
 
 .feedback__list {

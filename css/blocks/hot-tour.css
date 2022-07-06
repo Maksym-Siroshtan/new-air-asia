@@ -15,8 +15,9 @@
 
 .hot-tour__item {
     background: #fff;
-    border-radius: 5px;
+    border-radius: 6px;
     width: 32%;
+    overflow: hidden;
 }
 
 .hot-tour__image-pic {

@@ -18,7 +18,10 @@
 
 .service__image {
     margin-right: 56px;
-    min-width: 460px;
+}
+
+.service__desc {
+    flex: 1;
 }
 
 .service__title {
